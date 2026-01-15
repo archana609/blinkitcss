@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset><legend>dafa ho</legend></fieldset>
+        <label for="name">enter name:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email">
+        <br>
+        <label for="password">enter password:</label>
+        <input type="password" id="password">
+        <br>
+        <label for="date">enter date:</label>
+        <input type="date" id="date">
+        <br>
+        <label for="time">enter time:</label>
+        <input type="time" id="time">
+        <br>
+
+
+
+        <!-- dropdown-->
+        <label for="selector">cjoose ur dish</label>
+        <select name="dishes" id="selector">
+            <option value="maggie">maggie</option>
+            <option value="maggie">kurkure</option>
+            <option value="maggie">chips</option>
+        </select>
+        <br>
+
+        <!--checkbox-->
+        <input type="checkbox" name="hobby" value="reading">reading<br>
+        <input type="checkbox" name="hobby" value="music">music<br>
+        <input type="checkbox" name="hobby" value="playing">playing<br>
+        <button>submit</button>
+
+        <!--radio-->
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+
+         
+
+        <!--range 
+        step=10 means phle 10 badhega pheir 20 like that
+        value=0 means starting me cursor zero pe hoga
+        otherwise 50 pe hota hai by default
+        -->
+        <label for="vol">select your volume level</label>
+        <input type="range" id="vol" value="0" step="10" min="0" max="100" name="vol">
+        <button>submit</button>
+
+    </form>
+</body>
+</html>

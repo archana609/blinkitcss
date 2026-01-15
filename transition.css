@@ -1,0 +1,34 @@
+
+/* for transition */
+
+/* div{
+    height:200px;
+    width:200px;
+    background-color: red;
+    transition: 1s;
+    transition-delay: 2s;
+    /* transition delay means phle utna time rukega then change hoga that is called transition delay */
+    /* for more transition property check mdn  */
+
+
+/*div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+
+
+
+/* transition but moving in updown */
+div{
+    height:100px;
+    width:100px;
+    background-color: red;
+    
+    margin:0 auto;
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: blue;
+
+}

@@ -1,0 +1,6 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    box-shadow: 4px 8px 25px red;
+}

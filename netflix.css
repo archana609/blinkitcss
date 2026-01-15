@@ -1,0 +1,125 @@
+.whole{
+    position: relative;
+    height: 100vh;  
+    background-image: url("netflix.webp");
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     /* filter: brightness(40%); */
+      /* background-color: rgba(0,0,0,0.5); */
+      width: 100%;
+   
+}
+/* this creates a dark layer */
+.whole::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+     top: 0;               /* ✅ ADD */
+    left: 0; 
+     z-index: 1;  
+}
+.whole > * {
+    position: relative;
+    z-index: 2;
+}
+.head{
+    color:red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3.5rem;
+  line-height: 1.1;
+  text-align: center;
+}
+.button{
+    background-color: red;
+    height: 32px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      padding: 24px 48px;
+
+}
+.display select {
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  border: 1px solid #aaa;
+  height: 32px;
+  padding: 4px 10px;
+}
+
+.lefthead{
+    justify-content: space-between;
+    display: flex;
+    margin:21.44px;
+    gap:20px;
+
+}
+.para{
+    color:white;
+    font-family: unset;    
+        font-size: 4rem;
+        font-weight: 700;
+        padding:0px;
+        /* margint-top:40px; */
+        margin: 0px;
+}
+.para2{
+            font-family: unset;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        padding:0px;
+        margin-top: 0;
+}
+.para3{
+      font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        
+}
+.email{
+        caret-color: rgb(255, 255, 255);
+    width: 100%;
+    height:40px;
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: none;
+}
+.button2{
+        caret-color: rgb(255, 255, 255);
+    width:180.94px;
+    height:26px;
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1.5px 1px 0.5px;
+    background-color: red;
+    color:white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.para4{
+    display: flex;
+    align-items: center;
+
+}
+.button:hover,
+.button2 button:hover {
+  background-color: black;
+  color:wheat;
+}
